@@ -1,0 +1,44 @@
+class Human{
+    gender='female';
+    age=28;
+    
+    printGender=()=>{
+      console.log(this.gender);
+    }
+    printAge=()=>{
+      console.log(this.age);
+    }
+    
+}
+
+
+
+
+class Person extends Human{
+  
+  
+    name='Rumejsa';
+    age=23;
+  
+  
+  printMyName=()=>{
+    console.log(this.name);
+  }
+}
+
+const person=new Person();
+person.printMyName();
+person.printGender();
+person.printAge();
+
+
+
+///
+Output:
+
+Rumejsa
+female
+23
+
+
+
