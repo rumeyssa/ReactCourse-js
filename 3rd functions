@@ -1,0 +1,58 @@
+
+//const
+
+const printMyName=(name)=>{
+  console.log(name);
+}
+
+printMyName('Rumeysa');
+
+Output:
+"Rumejsa"
+//
+
+
+
+//normal function
+
+function printMyName(name){
+  console.log(name);
+}
+
+printMyName('Rumeysa');
+
+Output:
+"Rumejsa"
+//
+
+
+
+
+
+
+
+
+
+// 2 parametra const
+
+const printMyName=(name, age)=>{
+  console.log(name, age);
+}
+
+printMyName("Rumeysa", 23);
+
+Output:
+"Rumejsa"
+23
+//
+
+
+
+const multiply = number => number * 2;
+
+console.log(multipy(2));
+
+//4
+
+
+
